@@ -1,0 +1,108 @@
+* { 
+  font-family: Myraid pro;
+}
+
+.active a{
+  background-color: #4CAF50;
+    color: white;
+}
+li:hover {
+  background-color:  #4CAF50;
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.navbar .nav-item:hover .nav-link{ color: #fff }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}		
+/* ============ desktop view .end// ============ */
+
+.jpg {
+  float: left;
+  width:  1520px;
+  height: 800px;
+  object-fit: cover;
+}
+
+  #rh {
+
+    background-color: #333;
+    text-align: center;
+    font-size: 30px;
+    
+  }
+  #rh a{
+    color: #f2f2f2;
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #rh a:hover {
+    
+    color:#ccc;
+    text-decoration: none;
+    box-shadow: 0 0 11px white;
+  }
+
+ div#footer-cont {
+    
+    background-color: gray;
+    text-align: center;
+    position: relative;
+    
+  }
+
+ 
+  #confeed1 a{
+    color: white;
+    font-size: 40px;
+    padding: 5px;
+    border: 1px solid grey;
+  }
+  #confeed1 a:hover{
+   
+    text-decoration: none;
+  }
+
+  /*    icons   */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 6px;
+    border-radius: 500%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
